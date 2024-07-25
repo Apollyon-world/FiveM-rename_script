@@ -23,7 +23,7 @@ UPDATE users SET firstname = ?, lastname = ? WHERE identifier = ?
 ```
 
 ```SQL
-UPDATE users SET prenom = ?, nom = ? WHERE identifier = ? 
+UPDATE joueurs SET prenom = ?, nom = ? WHERE identifiants = ? 
 ```
 
 ```SQL
