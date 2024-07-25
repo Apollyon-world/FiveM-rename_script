@@ -39,3 +39,7 @@ UPDATE users SET [CUSTOM-FIRSTNAME] = ?, [CUSTOM-LASTNAME] = ? WHERE identifier 
 ## Sécuritée 🛡
 
 Le script est sécurisée car il est **server-side** c'est à dire qu'il n'y a que le serveur qui y a accès.
+
+## Support 
+
+Une erreur ? Un problème ? N'hésitez pas à faire un ticket sur le [serveur discord](https://discord.gg/4cJHAjxpDd)
