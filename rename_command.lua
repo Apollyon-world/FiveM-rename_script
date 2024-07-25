@@ -19,8 +19,12 @@ local function isAdmin(source)
         end
     elseif QBCore then
         local Player = QBCore.Functions.GetPlayer(source)
-        if Player and Player.PlayerData.job.name == 'admin' then
-            return true
+        if Player then
+            for _, perm in pairs(QBConfig.Server.Permissions) do
+                if Player.PlayerData.metadata[perm] then
+                    return true
+                end
+            end
         end
     end
     return false
