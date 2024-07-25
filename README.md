@@ -3,7 +3,7 @@
 Un script FiveM qui vous permet de vous rename en jeu en tant qu'Admin
 
 
-## Usage
+## Usage 📲
 
 ```
 /rename [ID] [Prénom] [Nom]
