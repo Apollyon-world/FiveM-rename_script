@@ -1,5 +1,3 @@
--- fxmanifest.lua
-
 fx_version 'cerulean'
 game 'gta5'
 
@@ -9,7 +7,7 @@ version '1.0.0'
 
 server_scripts {
     '@es_extended/locale.lua',
-    '@mysql-async/lib/MySQL.lua', -- Assurez-vous que 'oxmysql' est installé et utilisé
+    '@mysql-async/lib/MySQL.lua',
     'rename_command.lua'
 }
 
